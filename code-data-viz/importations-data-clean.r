@@ -127,5 +127,5 @@ travel.day = full_join(NL.travel,NS.travel)%>%
 
 # (1) Data to make the graph of time series of travel-related cases, close contacts, and new cases, aggregated by day
 # for Atlantic Canada and the territories
-write.csv(travel.day, "data/travel_day.csv")
+write.csv(travel.day, "data/travel-day.csv")
 

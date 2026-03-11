@@ -10,7 +10,7 @@ library(patchwork)
 
 ## Color blind palette
 cb <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#999999","#D55E00", "#C779A7")
-travel_day <- read.csv('data/travel_day.csv')[,-1]
+travel_day <- read.csv('data/travel-day.csv')[,-1]
 
 g.NL = ggplot(data = travel_day, aes(x=as.Date(date_report), group =1))+
   geom_ribbon(aes(ymin = 0, ymax = NL_new_cases - NL_contacts-NL_import), fill="#E69F00")+
