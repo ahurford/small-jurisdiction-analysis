@@ -1,5 +1,5 @@
 # Small jurisdiction analysis
 
-There is a finished figure in the folder code-data-viz which shows travel-related cases and community cases for Atlantic Canada and the territories for 2020-21.
+(1) There is 1 [figure](https://github.com/ahurford/small-jurisdiction-analysis/blob/main/code-data-viz/travel-related-vs-new.png) in the folder code-data-viz which shows travel-related cases and community cases for Atlantic Canada and the territories for 2020-21.
 
-I would like to also calculate the probability of a major outbreak for NL and NS. This requires some modification of the code that is in the major outbreak folder. That code should pull in some of the relevant variables, but the calculations are not correct.
+(2) There are 8 figures in the folder [code-major-outbreak](https://github.com/ahurford/small-jurisdiction-analysis/tree/main/code-major-outbreak) that estimate the probability of a major outbreak for Atlantic Canada and the territories. We should discuss the methods for doing this.
