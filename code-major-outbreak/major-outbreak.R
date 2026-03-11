@@ -275,7 +275,7 @@ g3  = ggplot(data=data,aes(x=date))+
   scale_x_datetime(labels = date_format("%b"),date_breaks = "1 month", guide = guide_axis(angle = 90))+
   xlab("")+
   ylim(c(0,.25))+
-  ylab("outbreak probability")+
+  ylab("major outbreak probability")+
   theme_classic()
 
 g=(g1+g2+g3+plot_annotation(title=title, theme = theme(plot.title = element_text(hjust = 0.5))))
