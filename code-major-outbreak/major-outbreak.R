@@ -210,7 +210,7 @@ P.major <- function(){
   Rt <- local.trans*NPIs*(alpha*alpha.trans+original*original.trans+delta*delta.trans)/100
   n <- (contacts+imports)
   n <- c(head(n,3),rollsum(n,4))
-  P.major <- traveller.trans*n*(1-1/Rt) # assume more than one spillover negligible, and multiply by the probability of one spillover
+  P.major <- traveller.trans*n*(1-1/Rt) # assume more than one spillover negligible, and multiply by the probability of one spillover. (1-1/Rt)^i formula applies only to integer valued spillovers > 1
   P.major[n==0]<-0
   P.major[Rt<=1]<-0
   P.major[P.major>1]<-1
